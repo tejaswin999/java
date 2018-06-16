@@ -34,6 +34,14 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 					<target>1.7</target>
 				</configuration>
 			</plugin>
+
+    <plugin>
+      <groupId>org.jboss.as.plugins</groupId>
+      <artifactId>jboss-as-maven-plugin</artifactId>
+      <version>7.4.Final</version>
+    </plugin>
+  <plugins>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
